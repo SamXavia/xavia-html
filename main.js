@@ -7,7 +7,7 @@ function textSequence(i) {
                     setTimeout(function() {
                         document.getElementById("sequence").innerHTML = example[i];
                         textSequence(++i);
-                    }, 10000); // 10s (in milliseconds)
+                    }, 2500); // 2.5s (in milliseconds)
 
                 } else if (example.length == i) { // Loop
                     textSequence(0);
