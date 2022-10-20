@@ -1,4 +1,4 @@
-var switch1 = ['world', 'web', 'video', 'community', 'services'];
+var switch1 = ['world', 'web', 'video', 'community', 'service'];
 
 textSequence(0);
 function textSequence(i) {
