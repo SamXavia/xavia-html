@@ -10,5 +10,5 @@ Project start date: ```2022-10-20 03:00 GBT```
   - fuzecraft ```active```
   - video-editing-service ```missing```
   - college-edits ```missing```
-  - vlog ```missing
+  - vlog ```missing```
 - contact ```inactive```
