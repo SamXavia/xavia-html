@@ -80,10 +80,12 @@ a {
 }
 
 /* Magic Landing Text */
-.landing-text > center > .magic {
+.landing-text > .magic {
     background-color: #F2F7F2;
     color: #272727;
     border-radius: 5px;
+    font-family: monospace;
+    font-size: clamp(1em, 1vw, 2em);
 }
 
 /* Mainly used when it's a Project */
