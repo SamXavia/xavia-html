@@ -99,6 +99,24 @@ a {
     padding-bottom: 5px;
 }
 
+.project {
+    list-style: none;
+    display: inline;
+}
+
+.project > li {
+    margin: auto;
+    width: 32rem;
+    height: 18rem;
+    padding: 15px;
+}
+
+.project > li > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
 /* Footer */
 footer {
     color: #F2F7F2;
