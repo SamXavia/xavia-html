@@ -12,3 +12,7 @@ Project start date: ```2022-10-20 03:00 GBT```
   - college-edits ```missing```
   - vlog ```missing```
 - contact ```inactive```
+
+### Legacy
+- name ```void```
+  - nm1 (SamXavia) ```not rerected```
