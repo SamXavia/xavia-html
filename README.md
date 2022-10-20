@@ -4,8 +4,11 @@ After using the xavia website for a while, the format seemed to be slow, unneces
 Project start date: ```2022-10-20 03:00 GBT```
 
 
-## Current Pages
+## Pages
 - index ```active```
 - projects ```active```
   - fuzecraft ```active```
+  - video-editing-service ```missing```
+  - college-edits ```missing```
+  - vlog ```missing
 - contact ```inactive```
