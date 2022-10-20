@@ -5,5 +5,5 @@ After using the xavia website for a while, the format seemed to be slow, unneces
 ## Current Pages
 - index ```active```
 - projects ```active```
-  - fuzecraft ```active
+  - fuzecraft ```active```
 - contact ```inactive```
