@@ -1,4 +1,4 @@
-var example = ['better world', 'better web', 'better video', 'better community'];
+var example = ['world', 'web', 'video', 'community', 'services'];
 
 textSequence(0);
 function textSequence(i) {
