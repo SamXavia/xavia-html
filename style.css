@@ -86,6 +86,7 @@ a {
     border-radius: 5px;
     font-family: monospace;
     font-size: clamp(1em, 1vw, 2em);
+    text-align: center;
 }
 
 /* Mainly used when it's a Project */
