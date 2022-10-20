@@ -99,6 +99,7 @@ a {
     padding-bottom: 5px;
 }
 
+/* Project Page Machanics */
 .project {
     list-style: none;
     display: inline;
@@ -111,7 +112,7 @@ a {
     padding: 15px;
 }
 
-.project > li > .project-title {
+.project > li > a > .project-title {
     position: relative;
     top: -57.5%;
     left: 0%;
@@ -124,7 +125,7 @@ a {
     transition: 0.5s all ease;
 }
 
-.project > li > img {
+.project > li > a > img {
     width: 100%;
     height: 100%;
     border-radius: 50px;
@@ -132,22 +133,22 @@ a {
     transition: 0.5s all ease;
 }
 
-.project > li > img:hover {
+.project > li > a > img:hover {
     transition: 0.5s all ease;
     opacity: 100%;
 }
 
-.project > li > img:hover ~ .project-title {
+.project > li > a > img:hover ~ .project-title {
     transition: 0.5s all ease;
     opacity: 100%;
 }
 
-.project > li > .project-title:hover {
+.project > li > a > .project-title:hover {
     transition: 0.5s all ease;
     opacity: 100%;
 }
 
-.project > li > .project-title:hover {
+.project > li > a > .project-title:hover {
     transition: 0.5s all ease;
     opacity: 100%;
 }
