@@ -6,4 +6,4 @@ After using the xavia website for a while, the format seemed to be slow, unneces
 - index
 - projects
   - fuzecraft
-- contact //currently unused
+- contact >currently unused
