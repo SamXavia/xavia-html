@@ -13,6 +13,16 @@ Project start date: ```2022-10-20 03:00 GBT```
   - vlog ```missing```
 - contact ```inactive```
 
+### Profiles
+- profile ```void```
+  - @SamXavia ```missing```
+    ```alts-
+    @Sam
+    @Xavia
+    @SamanthaXavia
+    @Owner
+    ```
+
 ### Legacy
 - name ```void```
   - nm1 (@SamXavia) ```not rerected```
