@@ -83,8 +83,10 @@ a {
 .landing-text > center > .magic {
     background-color: #F2F7F2;
     color: #272727;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Mainly used when it's a Project */
