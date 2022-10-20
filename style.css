@@ -24,8 +24,8 @@ a {
 /* Logo & Title */
 .logo-and-title {
     position: absolute;
-    top: 0.25vw;
-    left: 0.25vw;
+    top: 0vw;
+    left: 0vw;
 }
 
 .logo-and-title > li {
@@ -93,8 +93,10 @@ a {
     font-family: monospace;
     font-size: clamp(1.75em, 1.75vw, 3.5em);
     font-weight: 400;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 50px;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* Footer */
