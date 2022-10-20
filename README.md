@@ -23,6 +23,15 @@ Project start date: ```2022-10-20 03:00 GBT```
     @Owner
     ```
 
-### Legacy
+### Legacy Pages
 - name ```void```
-  - nm1 (@SamXavia) ```not rerected```
+  - nm1 (@SamXavia) ```not redirected```
+  - nm2 (@FalconChapter) ```not redirected```
+  - nm3 (@Aquavita) ```not redirected```
+  - nm4 (@Bouncball) ```not redirected```
+  - nm5 (@EvilDragonThe9th) ```not redirected```
+  - nm6 (@lollipop) ```not redirected```
+  - nm7 (@tailoredend) ```not redirected```
+  - nm8 (@six) ```not redirected```
+  - nm9 (@EmilySamain) ```not redirected```
+  - nm10 (@OliviaStanbridge) ```not redirected```
