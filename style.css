@@ -80,7 +80,7 @@ a {
 }
 
 /* Magic Landing Text */
-.landing-text > .magic {
+.landing-text > center > .magic {
     background-color: #F2F7F2;
     color: #272727;
     border-radius: 5px;
