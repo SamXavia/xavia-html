@@ -3,7 +3,7 @@ After using the xavia website for a while, the format seemed to be slow, unneces
 
 
 ## Current Pages
-- index
-- projects
-  - fuzecraft
-- contact ```currently unused```
+- index ``àctive```
+- projects ``àctive```
+  - fuzecraft ``àctive
+- contact ```inactive```
