@@ -15,7 +15,7 @@ Project start date: ```2022-10-20 03:00 GBT```
 
 ### Profiles
 - user ```void```
-  - @SamXavia ```missing```
+  - @SamXavia ```inactive```
     ```alts-
     @Sam
     @Xavia
