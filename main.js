@@ -5,7 +5,7 @@ function textSequence(i) {
 
             if (example.length > i) {
                     setTimeout(function() {
-                        document.getElementById("landing-text-switch").innerHTML = landingswitchtext [i];
+                        document.getElementById("landing-text-switch").innerHTML = landingswitchtext[i];
                         textSequence(++i);
                     }, 2500); // 2.5s (in milliseconds)
 
