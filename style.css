@@ -1,0 +1,83 @@
+/* Links */
+a {
+    color: #dd2783;
+    text-decoration: none;
+}
+
+/* Landing Page Body */
+.landing {
+    background-color: #272727;
+    display: grid;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+    place-items: center;
+}
+
+/* Xavia Title */
+.title {
+    color: #F2F7F2;
+    font-family: monospace;
+    font-size: clamp(2.5em, 2.5vw, 5em);
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0.25vw;
+    left: 1vw;
+}
+
+/* Nav - Projects */
+.nav-projects {
+    color: #F2F7F2;
+    font-family: monospace;
+    font-size: clamp(1.75em, 1.75vw, 3.5em);
+    font-weight: 200;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0.75vw;
+    right: 11vw;
+}
+
+/* Nav - Contact */
+.nav-contact {
+    color: #F2F7F2;
+    font-family: monospace;
+    font-size: clamp(1.75em, 1.75vw, 3.5em);
+    font-weight: 200;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0.75vw;
+    right: 1vw;
+}
+
+/* h1 */
+.landing-text {
+    color: #F2F7F2;
+    font-family: monospace;
+    font-size: clamp(2em, 2vw, 4em);
+    font-weight: 400;
+    margin: 0px;
+    padding: 20px;
+}
+
+/* Changed Text */
+.landing-text > .magic {
+    background-color: #F2F7F2;
+    color: #272727;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    color: #F2F7F2;
+    font-family: monospace;
+    font-size: clamp(1em, 1em, 2em);
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+    margin-top: auto;
+    margin-bottom: 1em;
+}
