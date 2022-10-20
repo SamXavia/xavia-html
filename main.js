@@ -1,11 +1,11 @@
-var switch1 = ['world', 'web', 'video', 'community', 'service'];
+var example = ['world', 'web', 'video', 'community', 'service'];
 
 textSequence(0);
 function textSequence(i) {
 
             if (example.length > i) {
                     setTimeout(function() {
-                        document.getElementById("landing-text-switch").innerHTML = switch1[i];
+                        document.getElementById("landing-text-switch").innerHTML = example[i];
                         textSequence(++i);
                     }, 2500); // 2.5s (in milliseconds)
 
