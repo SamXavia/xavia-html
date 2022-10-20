@@ -86,6 +86,16 @@ a {
     border-radius: 5px;
 }
 
+/* Mainly used when it's a Project */
+.normal-header {
+    color: #F2F7F2;
+    font-family: monospace;
+    font-size: clamp(1.75em, 1.75vw, 3.5em);
+    font-weight: 400;
+    margin: 0px;
+    padding: 20px;
+}
+
 /* Header Magic */
 .normal-header > .magic {
     background-color: #F2F7F2;
