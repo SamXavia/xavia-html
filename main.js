@@ -3,7 +3,7 @@ var landingswitchtext = ['world', 'web', 'video', 'community', 'service'];
 textSequence(0);
 function textSequence(i) {
 
-            if (example.length > i) {
+            if (landingswitchtext.length > i) {
                     setTimeout(function() {
                         document.getElementById("landing-text-switch").innerHTML = landingswitchtext[i];
                         textSequence(++i);
