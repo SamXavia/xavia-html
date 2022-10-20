@@ -1,2 +1,2 @@
-# xavia-website-2.0
-version 2.0 of the xaiva website
+# Xavia Website 2.0+
+after using the xavia website for a while, the format seemed to be slow, unnecessarily complex. this is meant to solve that problem.
