@@ -15,12 +15,12 @@ Project start date: ```2022-10-20 03:00 GBT```
 
 ### Profiles
 - user ```void```
-  - @SamXavia ```inactive```
+  - @SamXavia ```active```
     ```alts-
-    @Sam
-    @Xavia
-    @SamanthaXavia
-    @Owner
+    @Sam - Missing
+    @Xavia - Missing
+    @SamanthaXavia - Missing
+    @Owner - Missing
     ```
   - @FalconChapter ```missing```
   - @Aquavita ```missing``
