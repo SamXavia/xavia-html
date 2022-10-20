@@ -14,7 +14,7 @@ Project start date: ```2022-10-20 03:00 GBT```
 - contact ```inactive```
 
 ### Profiles
-- profile ```void```
+- user ```void```
   - @SamXavia ```missing```
     ```alts-
     @Sam
@@ -22,6 +22,9 @@ Project start date: ```2022-10-20 03:00 GBT```
     @SamanthaXavia
     @Owner
     ```
+  - @FalconChapter ```missing```
+  - @Aquavita ```missing``
+  - @six ```missing```
 
 ### Legacy Pages
 - name ```void```
