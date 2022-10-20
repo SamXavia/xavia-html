@@ -1,9 +1,9 @@
 var example = ['better world', 'better web', 'better video', 'better community'];
 
-            textSequence(0);
-            function textSequence(i) {
+textSequence(0);
+function textSequence(i) {
 
-                if (example.length > i) {
+            if (example.length > i) {
                     setTimeout(function() {
                         document.getElementById("sequence").innerHTML = example[i];
                         textSequence(++i);
