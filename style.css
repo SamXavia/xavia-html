@@ -84,8 +84,6 @@ a {
     background-color: #F2F7F2;
     color: #272727;
     border-radius: 5px;
-    font-family: monospace;
-    font-size: clamp(1em, 1vw, 2em);
     text-align: center;
 }
 
