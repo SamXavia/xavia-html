@@ -89,6 +89,15 @@ a {
     padding-right: 10px;
 }
 
+.plain-text {
+    color: #F2F7F2;
+    font-family: monospace;
+    font-size: clamp(1em, 1vw, 2em);
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+
 /* Mainly used when it's a Project */
 .normal-header {
     color: #F2F7F2;
