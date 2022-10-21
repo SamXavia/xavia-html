@@ -1,29 +1,29 @@
 /* Links */
 a {
-    color: #dd2783;
-    text-decoration: none;
+    color: #dd2783; /* Custom Colour for all links */
+    text-decoration: none; /* Removed the Underscore for links */
 }
 
 /* Landing Page Body */
 .landing-page {
-    background-color: #272727;
+    background-color: #272727; /* General Background Colour */
     display: grid;
     height: 100vh;
     margin: 0px;
-    overflow: hidden;
-    place-items: center;
+    overflow: hidden; /* Stops from scrolling */
+    place-items: center; /* Moves everything to the center */
 }
 
 /* Normal Page Body */
 .normal-page {
-    background-color: #272727;
-    width: 100%;
-    height: auto;
+    background-color: #272727; /* General Background Colour */
+    width: 100%; /* expands all the way to the edge */
+    height: auto; /* changes height to what is needed (full-page) */
 }
 
 /* Logo & Title */
 .logo-and-title {
-    position: absolute;
+    position: absolute; /* Sticks it to a location on the page */
     top: 0vw;
     left: 0vw;
 }
@@ -89,6 +89,7 @@ a {
     padding-right: 10px;
 }
 
+/* Basic Plain Text on Pages such as projects/fuzecraft */
 .plain-text {
     color: #F2F7F2;
     font-family: monospace;
