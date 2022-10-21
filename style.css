@@ -99,6 +99,16 @@ a {
     padding: 0px;
 }
 
+/* Basic text for a 404 error (missing page) */
+.plain-text-404 {
+    color: #F2F7F2;
+    font-family: monospace;
+    font-size: clamp(1.5em, 1.5vw, 3em);
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+
 /* Mainly used when it's a Project */
 .normal-header {
     color: #F2F7F2;
