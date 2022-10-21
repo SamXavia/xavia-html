@@ -1,4 +1,14 @@
-var landingswitchtext = ['world', 'web', 'video', 'community', 'service', 'home', 'place', 'legacy'];
+var landingswitchtext = [
+    'world',
+    'web',
+    'video',
+    'community',
+    'service',
+    'home',
+    'place',
+    'legacy',
+    'space'
+];
 
 textSequence(0);
 function textSequence(i) {
