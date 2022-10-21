@@ -186,11 +186,6 @@ a {
     opacity: 100%;
 }
 
-.project > li > a > .project-title:hover {
-    transition: 0.5s all ease;
-    opacity: 100%;
-}
-
 /* Footer */
 footer {
     color: #F2F7F2;
