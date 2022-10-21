@@ -173,6 +173,7 @@ a {
 .project > li > a > img:hover {
     transition: 0.5s all ease;
     opacity: 100%;
+    box-shadow: 2px 2px #323232;
 }
 
 .project > li > a > img:hover ~ .project-title {
