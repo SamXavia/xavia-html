@@ -23,7 +23,7 @@ Project start date: ```2022-10-20 03:00 GBT```
     @Owner - Missing
     ```
   - @FalconChapter ```missing```
-  - @Aquavita ```missing``
+  - @Aquavita ```missing```
   - @six ```missing```
     ```alts-
     @6
