@@ -24,6 +24,7 @@ a {
 /* Logo & Title */
 .logo-and-title {
     position: absolute; /* Sticks it to a location on the page */
+    /* Position */
     top: 0vw;
     left: 0vw;
 }
@@ -33,23 +34,26 @@ a {
 }
 
 .logo-and-title > li > .logo {
+    /* Logo Size */
     width: 3.5em;
     height: 3.5em;
 }
 
+/* Title Logo 'Xavia' */
 .logo-and-title > li > .title {
-    color: #F2F7F2;
-    font-family: monospace;
-    font-size: clamp(2.5em, 2.5vw, 5em);
-    font-weight: 300;
+    /*Text Information */
+    color: #F2F7F2; /* Font Colour */
+    font-family: monospace; /* Font Style */
+    font-size: clamp(2.5em, 2.5vw, 5em); /* Some way of doing font style */
+    font-weight: 300; /* Font Weight, Still not 100% on what this does yet. */
     margin: 0px;
     padding: 0px;
 }
 
 /* Nav */
 .nav {
-    color: #F2F7F2;
-    font-family: monospace;
+    color: #F2F7F2; /* Text Colour */
+    font-family: monospace; /* Font Style */
     font-size: clamp(1.75em, 1.75vw, 3.5em);
     font-weight: 200;
     margin: 0px;
@@ -192,7 +196,6 @@ a {
     width: 4rem;
     filter: invert(100%);
 }
-
 
 /* Footer */
 footer {
