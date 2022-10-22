@@ -33,6 +33,7 @@ a {
     display: flex;
 }
 
+/* Logo (Currently Missing) */
 .logo-and-title > li > .logo {
     /* Logo Size */
     width: 3.5em;
