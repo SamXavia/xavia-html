@@ -186,6 +186,14 @@ a {
     opacity: 100%;
 }
 
+/* Fuzecraft Map Icon */
+.project-fuzecraft-map-icon {
+    height: 4rem;
+    width: 4rem;
+    filter: invert(100%);
+}
+
+
 /* Footer */
 footer {
     color: #F2F7F2;
