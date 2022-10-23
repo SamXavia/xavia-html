@@ -122,6 +122,34 @@
                 float: right;
             }
 
+        /* Page Title */
+            /* Mainly used when it's a Project */
+            .normal-header {
+                color: #F2F7F2;
+                font-family: monospace;
+                font-size: clamp(1.75em, 1.75vw, 3.5em);
+                font-weight: 400;
+                margin: 0px;
+                padding: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+                /* Header Magic */
+                .normal-header > .magic {
+                    background-color: #F2F7F2;
+                    color: #272727;
+                    font-family: monospace;
+                    font-size: clamp(1.75em, 1.75vw, 3.5em);
+                    font-weight: 400;
+                    border-radius: 50px;
+                    padding: 15px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+
     /* Normal Page Contents */
         .normal-page-content {
             width: 100%;
@@ -163,139 +191,114 @@
                 margin: 0px;
                 padding: 0px;
             }
+    
+    /* Footer */
+    footer {
+        color: #F2F7F2;
+        font-family: monospace;
+        font-size: clamp(1em, 1em, 2em);
+        font-weight: 100;
+        margin: 0px;
+        padding: 0px;
+        margin-top: auto;
+        margin-bottom: 1em;
+    }
 
+/* Projects Menu */
+    /* Div Projects */
+    .div-projects {
+        width: 90%;
+    }
 
+    /* Project Box */
+    .div-project-box {
+        max-width: 90%;
+        max-height: auto;
+        padding: 15px;
+    }
 
+    /**/
+    .div-project-box-style > div {
+        margin: auto;
+        min-width: 16rem;
+        min-height: 9rem;
+        max-width: 32rem;
+        max-height: 18rem;
+        padding: 15px;
+    }
 
+        /* Image */
+        .div-project-box-style > div > a > img {
+            position: relative;
+            text-align: center;
+            min-width: 100%;
+            min-height: 100%;
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 50px;
+            opacity: 75%;
+            transition: 0.5s all ease;
+        }
 
+            /**/
+            .div-project-box-style > div > a > img:hover {
+                transition: 0.5s all ease;
+                opacity: 100%;
+                box-shadow: 2px 2px #323232;
+            }
+        
+        /* Project Title */
+        .div-project-box-style > div > a > .project-title {
+            position: relative;
+            bottom: -57.5%;
+            left: 0%;
+            transform: translate(0%, -150%);
+            font-family:monospace;
+            font-size:2vw;
+            font-weight: bold;
+            color: #FFFFFF;
+            opacity: 0%;
+            transition: 0.5s all ease;
+        }
 
+        /* LEGACY Project Title
+        .div-project-box-style > div > a > .project-title {
+            position: relative;
+            bottom: -57.5%;
+            left: 0%;
+            transform: translate(-50%, -50%);
+            font-family:monospace;
+            font-size:2vw;
+            font-weight: bold;
+            color: #FFFFFF;
+            opacity: 0%;
+            transition: 0.5s all ease;
+        } */
+    
+    /* Show Project Title when Img is hovered over */
+    .div-project-box-style > div > a > img:hover ~ .project-title {
+        transition: 0.5s all ease;
+        opacity: 100%;
+    }
+    
+    /* Show Project Title when title is hovered over */
+    .div-project-box-style > div > a > .project-title:hover {
+        transition: 0.5s all ease;
+        opacity: 100%;
+    }
 
+/* Page */
+    /* Fuzecraft */
+        /* Fuzecraft Map Icon */
+        .project-fuzecraft-map-icon {
+            height: 4rem;
+            width: 4rem;
+            filter: invert(100%);
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-/* Mainly used when it's a Project */
-.normal-header {
-    color: #F2F7F2;
-    font-family: monospace;
-    font-size: clamp(1.75em, 1.75vw, 3.5em);
-    font-weight: 400;
-    margin: 0px;
-    padding: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-/* Header Magic */
-.normal-header > .magic {
-    background-color: #F2F7F2;
-    color: #272727;
-    font-family: monospace;
-    font-size: clamp(1.75em, 1.75vw, 3.5em);
-    font-weight: 400;
-    border-radius: 50px;
-    padding: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-/* Project Page Machanics */
-.project {
-    list-style: none;
-    display: inline;
-}
-
-.project > li {
-    margin: auto;
-    width: 32rem;
-    height: 18rem;
-    padding: 15px;
-}
-
-.project > li > a > .project-title {
-    position: relative;
-    top: -57.5%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-    font-family:monospace;
-    font-size:2vw;
-    font-weight: bold;
-    color: #FFFFFF;
-    opacity: 0%;
-    transition: 0.5s all ease;
-}
-
-.project > li > a > img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50px;
-    opacity: 75%;
-    transition: 0.5s all ease;
-}
-
-.project > li > a > img:hover {
-    transition: 0.5s all ease;
-    opacity: 100%;
-    box-shadow: 2px 2px #323232;
-}
-
-.project > li > a > img:hover ~ .project-title {
-    transition: 0.5s all ease;
-    opacity: 100%;
-}
-
-.project > li > a > .project-title:hover {
-    transition: 0.5s all ease;
-    opacity: 100%;
-}
-
-/* Fuzecraft Map Icon */
-.project-fuzecraft-map-icon {
-    height: 4rem;
-    width: 4rem;
-    filter: invert(100%);
-}
-
-/* Fuzecraft Player Icon */
-.project-fuzecraft-player-icon {
-    height: 4rem;
-    width: 4rem;
-    filter: invert(100%);
-}
-
-/* Footer */
-footer {
-    color: #F2F7F2;
-    font-family: monospace;
-    font-size: clamp(1em, 1em, 2em);
-    font-weight: 100;
-    margin: 0px;
-    padding: 0px;
-    margin-top: auto;
-    margin-bottom: 1em;
-}
+        /* Fuzecraft Player Icon */
+        .project-fuzecraft-player-icon {
+            height: 4rem;
+            width: 4rem;
+            filter: invert(100%);
+        }
