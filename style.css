@@ -5,9 +5,10 @@
         text-decoration: none; /* Removed the Underscore for links */
     }
 
-    .sneaky-link {
-        color: #F2F7F2;
-    }
+        /* Sneaky Hyperlink */
+        .sneaky-link {
+            color: #F2F7F2; /* Custom White to make a 'Sneaky Link' */
+        }
 
 /* PAGE TYPE */
     /* Landing Page Body */
