@@ -172,6 +172,18 @@
             padding: 0px;
         }
 
+            /* User Menu */
+            .plain-subtitle {
+                color: #F2F7F2;
+                font-family: monospace;
+                font-size: clamp(1.5em, 1.5vw, 3em);
+                font-weight: 400;
+                letter-spacing: 0.25rem;
+                word-spacing: 2rem;
+                margin: 0px;
+                padding: 0px;
+            }
+
         /* Basic Plain Text on Pages such as projects/fuzecraft */
         .plain-text {
             color: #F2F7F2;
