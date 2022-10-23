@@ -5,6 +5,10 @@
         text-decoration: none; /* Removed the Underscore for links */
     }
 
+    .sneaky-link {
+        color: #F2F7F2;
+    }
+
 /* PAGE TYPE */
     /* Landing Page Body */
     .landing-page {
@@ -23,9 +27,8 @@
         height: auto; /* changes height to what is needed (full-page) */
     }
 
-/* Nav Bar */
-    /* The Div for Nav bar */
-    .div-nav {
+/* Landing Page Information */
+    .landing-page-nav {
         color: #F2F7F2;
         font-family: monospace;
         font-size: clamp(1em, 1vw, 2em);
@@ -33,53 +36,91 @@
         margin: 0px;
         padding: 0px;
         width: 100%;
+        height: 100%;
+        position: absolute;
     }
 
-    /* Xavia Logo */
-    .nav-left {
-    width: 20%;
-    float: left;
-    margin: 0px;
-    padding: 0px;
+    /* Landing Text */
+    .landing-text {
+        color: #F2F7F2;
+        font-family: monospace;
+        font-size: clamp(2em, 2vw, 4em);
+        font-weight: 400;
+        margin: 0px;
+        padding: 20px;
     }
 
-    /* Menu */
-    .nav-right {
-        width: 80%;
+
+/* Normal Page Information */
+    /* Nav Bar */
+        /* The Div for Nav bar */
+        .div-nav {
+            color: #F2F7F2;
+            font-family: monospace;
+            font-size: clamp(1em, 1vw, 2em);
+            font-weight: 400;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+        }
+
+        /* Xavia Logo */
+        .nav-left {
+        width: 20%;
         float: left;
         margin: 0px;
         padding: 0px;
-    }
-
-        /* Makes the Menu in Line */
-        .nav-menu-inline > li {
-            display: inline;
         }
 
-        /* nav-menu-button */
-        .nav-menu-button {
-            color: #F2F7F2;
-            font-family: monospace;
-            font-weight: 200;
-            font-size: clamp(1.75em, 1.75vw, 3.5em);
+            /* Title Logo 'Xavia' */
+            .title {
+                /*Text Information */
+                color: #F2F7F2; /* Font Colour */
+                font-family: monospace; /* Font Style */
+                font-size: clamp(2.5em, 2.5vw, 5em); /* Some way of doing font style */
+                font-weight: 300; /* Font Weight, Still not 100% on what this does yet. */
+                /* Position and Padding */
+                margin: 1rem;
+                padding: 0px;
+            }
+
+        /* Menu */
+        .nav-right {
+            width: 80%;
+            float: left;
             margin: 0px;
-            margin-right: 2rem;
             padding: 0px;
-            top: 0.75vw;
-            right: 1.5vw;
+        }
+
+            /* Makes the Menu in Line */
+            .nav-menu-inline > li {
+                display: inline;
+            }
+
+            /* nav-menu-button */
+            .nav-menu-button {
+                color: #F2F7F2;
+                font-family: monospace;
+                font-weight: 200;
+                font-size: clamp(1.75em, 1.75vw, 3.5em);
+                margin: 0px;
+                margin-right: 2rem;
+                padding: 0px;
+                top: 0.75vw;
+                right: 1.5vw;
+                float: right;
+            }
+
+    /* Normal Page Contents */
+        .normal-page-content {
+            width: 100%;
             float: right;
         }
 
-/* Normal Page Contents */
-    .normal-page-content {
-        width: 100%;
-        float: right;
-    }
-
-    .div-footer {
-        width: 100%;
-        float: right;
-    }
+        .div-footer {
+            width: 100%;
+            float: right;
+        }
 
 
 
@@ -90,46 +131,6 @@
 
 
 
-
-
-/* Logo & Title */
-.logo-and-title {
-    /* Position */
-    top: 0vw;
-    left: 0vw;
-}
-
-.logo-and-title > li {
-    display: flex;
-}
-
-/* Logo (Currently Missing) */
-.logo-and-title > li > .logo {
-    /* Logo Size */
-    width: 3.5em;
-    height: 3.5em;
-}
-
-/* Title Logo 'Xavia' */
-.logo-and-title > li > .title {
-    /*Text Information */
-    color: #F2F7F2; /* Font Colour */
-    font-family: monospace; /* Font Style */
-    font-size: clamp(2.5em, 2.5vw, 5em); /* Some way of doing font style */
-    font-weight: 300; /* Font Weight, Still not 100% on what this does yet. */
-    margin: 0px;
-    padding: 0px;
-}
-
-/* Landing Text */
-.landing-text {
-    color: #F2F7F2;
-    font-family: monospace;
-    font-size: clamp(2em, 2vw, 4em);
-    font-weight: 400;
-    margin: 0px;
-    padding: 20px;
-}
 
 /* Magic Landing Text */
 .landing-text > center > .magic {
