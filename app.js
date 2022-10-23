@@ -8,7 +8,8 @@ var landingswitchtext = [
     'place',
     'legacy',
     'space',
-    'server'
+    'server',
+    'quest'
 ];
 
 textSequence(0);
