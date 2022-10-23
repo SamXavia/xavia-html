@@ -260,20 +260,6 @@
             opacity: 0%;
             transition: 0.5s all ease;
         }
-
-        /* LEGACY Project Title
-        .div-project-box-style > div > a > .project-title {
-            position: relative;
-            bottom: -57.5%;
-            left: 0%;
-            transform: translate(-50%, -50%);
-            font-family:monospace;
-            font-size:2vw;
-            font-weight: bold;
-            color: #FFFFFF;
-            opacity: 0%;
-            transition: 0.5s all ease;
-        } */
     
     /* Show Project Title when Img is hovered over */
     .div-project-box-style > div > a > img:hover ~ .project-title {
