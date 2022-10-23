@@ -7,7 +7,8 @@ var landingswitchtext = [
     'home',
     'place',
     'legacy',
-    'space'
+    'space',
+    'server'
 ];
 
 textSequence(0);
