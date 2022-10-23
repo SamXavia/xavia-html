@@ -1,29 +1,99 @@
-/* Links */
-a {
-    color: #dd2783; /* Custom Colour for all links */
-    text-decoration: none; /* Removed the Underscore for links */
-}
+/* The Basics Changed */
+    /* Hyperlinks */
+    a {
+        color: #dd2783; /* Custom Colour for all links */
+        text-decoration: none; /* Removed the Underscore for links */
+    }
 
-/* Landing Page Body */
-.landing-page {
-    background-color: #272727; /* General Background Colour */
-    display: grid;
-    height: 100vh;
+/* PAGE TYPE */
+    /* Landing Page Body */
+    .landing-page {
+        background-color: #272727; /* General Background Colour */
+        display: grid;
+        height: 100vh;
+        margin: 0px;
+        overflow: hidden; /* Stops from scrolling */
+        place-items: center; /* Moves everything to the center */
+    }
+
+    /* Normal Page Body */
+    .normal-page {
+        background-color: #272727; /* General Background Colour */
+        width: 100%; /* expands all the way to the edge */
+        height: auto; /* changes height to what is needed (full-page) */
+    }
+
+/* Nav Bar */
+    /* The Div for Nav bar */
+    .div-nav {
+        color: #F2F7F2;
+        font-family: monospace;
+        font-size: clamp(1em, 1vw, 2em);
+        font-weight: 400;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    /* Xavia Logo */
+    .nav-left {
+    width: 20%;
+    float: left;
     margin: 0px;
-    overflow: hidden; /* Stops from scrolling */
-    place-items: center; /* Moves everything to the center */
-}
+    padding: 0px;
+    }
 
-/* Normal Page Body */
-.normal-page {
-    background-color: #272727; /* General Background Colour */
-    width: 100%; /* expands all the way to the edge */
-    height: auto; /* changes height to what is needed (full-page) */
-}
+    /* Menu */
+    .nav-right {
+        width: 80%;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+    }
+
+        /* Makes the Menu in Line */
+        .nav-menu-inline > li {
+            display: inline;
+        }
+
+        /* nav-menu-button */
+        .nav-menu-button {
+            color: #F2F7F2;
+            font-family: monospace;
+            font-weight: 200;
+            font-size: clamp(1.75em, 1.75vw, 3.5em);
+            margin: 0px;
+            margin-right: 2rem;
+            padding: 0px;
+            top: 0.75vw;
+            right: 1.5vw;
+            float: right;
+        }
+
+/* Normal Page Contents */
+    .normal-page-content {
+        width: 100%;
+        float: right;
+    }
+
+    .div-footer {
+        width: 100%;
+        float: right;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 /* Logo & Title */
 .logo-and-title {
-    position: absolute; /* Sticks it to a location on the page */
     /* Position */
     top: 0vw;
     left: 0vw;
@@ -51,29 +121,6 @@ a {
     padding: 0px;
 }
 
-/* Nav */
-.nav {
-    color: #F2F7F2; /* Text Colour */
-    font-family: monospace; /* Font Style */
-    font-size: clamp(1.75em, 1.75vw, 3.5em);
-    font-weight: 200;
-    margin: 0px;
-    padding: 0px;
-    top: 0.75vw;
-    right: 1.5vw;
-    position: absolute;
-}
-
-.nav > li {
-    display: inline;
-}
-
-.nav > li > .button {
-    color: #F2F7F2;
-    font-family: monospace;
-    font-weight: 200;
-}
-
 /* Landing Text */
 .landing-text {
     color: #F2F7F2;
@@ -99,6 +146,16 @@ a {
     color: #F2F7F2;
     font-family: monospace;
     font-size: clamp(1em, 1vw, 2em);
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Simple Subtitle for places such as Player list in projects/fuzecraft */
+.plain-subtitle {
+    color: #F2F7F2;
+    font-family: monospace;
+    font-size: clamp(1.5em, 1.5vw, 3em);
     font-weight: 400;
     margin: 0px;
     padding: 0px;
@@ -193,6 +250,13 @@ a {
 
 /* Fuzecraft Map Icon */
 .project-fuzecraft-map-icon {
+    height: 4rem;
+    width: 4rem;
+    filter: invert(100%);
+}
+
+/* Fuzecraft Player Icon */
+.project-fuzecraft-player-icon {
     height: 4rem;
     width: 4rem;
     filter: invert(100%);
