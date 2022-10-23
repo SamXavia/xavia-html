@@ -14,9 +14,8 @@
     .landing-page {
         background-color: #272727; /* General Background Colour */
         display: grid;
-        height: 100vh;
+        height: 82vh;
         margin: 0px;
-        overflow: hidden; /* Stops from scrolling */
         place-items: center; /* Moves everything to the center */
     }
 
@@ -28,16 +27,15 @@
     }
 
 /* Landing Page Information */
-    .landing-page-nav {
-        color: #F2F7F2;
-        font-family: monospace;
-        font-size: clamp(1em, 1vw, 2em);
-        font-weight: 400;
-        margin: 0px;
+    .landing-page-title {
+        /*Text Information */
+        color: #F2F7F2; /* Font Colour */
+        font-family: monospace; /* Font Style */
+        font-size: clamp(5em, 5vw, 10em); /* Some way of doing font style */
+        font-weight: 300; /* Font Weight, Still not 100% on what this does yet. */
+        /* Position and Padding */
+        margin: 1rem;
         padding: 0px;
-        width: 100%;
-        height: 100%;
-        position: absolute;
     }
 
     /* Landing Text */
@@ -47,7 +45,20 @@
         font-size: clamp(2em, 2vw, 4em);
         font-weight: 400;
         margin: 0px;
+        margin-bottom: 10rem;
         padding: 20px;
+    }
+
+    /* Magic Landing Text */
+    .landing-text > center > .magic {
+        background-color: #F2F7F2;
+        color: #272727;
+        font-family: monospace;
+        font-size: clamp(2em, 2vw, 4em);
+        border-radius: 15px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 
@@ -122,6 +133,36 @@
             float: right;
         }
 
+        /* Simple Subtitle for places such as Player list in projects/fuzecraft */
+        .plain-subtitle {
+            color: #F2F7F2;
+            font-family: monospace;
+            font-size: clamp(1.5em, 1.5vw, 3em);
+            font-weight: 400;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* Basic Plain Text on Pages such as projects/fuzecraft */
+        .plain-text {
+            color: #F2F7F2;
+            font-family: monospace;
+            font-size: clamp(1em, 1vw, 2em);
+            font-weight: 400;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* Error 404  Page Content */
+            /* Basic text for a 404 error (missing page) */
+            .plain-text-404 {
+                color: #F2F7F2;
+                font-family: monospace;
+                font-size: clamp(1.5em, 1.5vw, 3em);
+                font-weight: 400;
+                margin: 0px;
+                padding: 0px;
+            }
 
 
 
@@ -132,46 +173,30 @@
 
 
 
-/* Magic Landing Text */
-.landing-text > center > .magic {
-    background-color: #F2F7F2;
-    color: #272727;
-    border-radius: 15px;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
-/* Basic Plain Text on Pages such as projects/fuzecraft */
-.plain-text {
-    color: #F2F7F2;
-    font-family: monospace;
-    font-size: clamp(1em, 1vw, 2em);
-    font-weight: 400;
-    margin: 0px;
-    padding: 0px;
-}
 
-/* Simple Subtitle for places such as Player list in projects/fuzecraft */
-.plain-subtitle {
-    color: #F2F7F2;
-    font-family: monospace;
-    font-size: clamp(1.5em, 1.5vw, 3em);
-    font-weight: 400;
-    margin: 0px;
-    padding: 0px;
-}
 
-/* Basic text for a 404 error (missing page) */
-.plain-text-404 {
-    color: #F2F7F2;
-    font-family: monospace;
-    font-size: clamp(1.5em, 1.5vw, 3em);
-    font-weight: 400;
-    margin: 0px;
-    padding: 0px;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
 /* Mainly used when it's a Project */
 .normal-header {
     color: #F2F7F2;
