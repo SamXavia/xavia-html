@@ -296,3 +296,10 @@
             width: 4rem;
             filter: invert(100%);
         }
+
+/* Users */
+        /* Subpage Menu */
+        .user-subpage-menu {
+            color: #F2F7F2;
+            text-decoration: none;
+        }
