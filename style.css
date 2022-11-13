@@ -288,15 +288,10 @@
 
 /* Page */
     /* Fuzecraft */
-        /* Fuzecraft Map Icon */
-        .project-fuzecraft-map-icon {
-            height: 4rem;
-            width: 4rem;
-            filter: invert(100%);
-        }
-
-        /* Fuzecraft Player Icon */
-        .project-fuzecraft-player-icon {
+        /* Fuzecraft Icon Padding */
+        .project-fuzecraft-icon {
+            padding-left: 1.25rem;
+            padding-right: 1.25rem;
             height: 4rem;
             width: 4rem;
             filter: invert(100%);
