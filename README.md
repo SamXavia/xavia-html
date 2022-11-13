@@ -9,25 +9,22 @@ Project start date: ```2022-10-20 03:00 GBT```
 - projects ```active```
   - fuzecraft ```active```
   - video-editing-service ```missing```
-  - college-edits ```missing```
-  - vlog ```missing```
+  - portfolio ```missing```
+    - college-edits ```missing```
+    - vlog ```missing```
 - contact ```inactive```
 
 ### Profiles
 - user ```void```
   - @SamXavia ```active```
-    ```alts-
-    @Sam - Missing
-    @Xavia - Missing
-    @SamanthaXavia - Missing
-    @Owner - Missing
-    ```
+      . @Sam ```active```
+      . @Xavia - Missing
+      . @SamanthaXavia - Missing
+      . @Owner - Missing
   - @FalconChapter ```missing```
   - @Aquavita ```missing```
   - @six ```missing```
-    ```alts-
-    @6
-    ```
+      . @6
   - @EmilySamain ```missing```
 
 ### Legacy Pages
