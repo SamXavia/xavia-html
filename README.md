@@ -18,9 +18,9 @@ Project start date: ```2022-10-20 03:00 GBT```
 - user ```void```
   - @SamXavia ```active```
       . @Sam ```active```
-      . @Xavia - Missing
-      . @SamanthaXavia - Missing
-      . @Owner - Missing
+      . @Xavia ```active```
+      . @SamanthaXavia ```active```
+      . @Owner ```active```
   - @FalconChapter ```missing```
   - @Aquavita ```missing```
   - @six ```missing```
@@ -29,7 +29,7 @@ Project start date: ```2022-10-20 03:00 GBT```
 
 ### Legacy Pages
 - name ```void```
-  - nm1 (@SamXavia) ```not redirected```
+  - nm1 (@SamXavia) ```redirected```
   - nm2 (@FalconChapter) ```not redirected```
   - nm3 (@Aquavita) ```not redirected```
   - nm4 (@Bouncball) ```not redirected```
