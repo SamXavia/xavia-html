@@ -5,9 +5,7 @@ Project start date: ```2022-10-20 03:00 GBT```
 
 
 ## Pages
-- index ```active```
 - projects ```active```
-  - fuzecraft ```active```
   - video-editing-service ```missing```
   - portfolio ```missing```
     - college-edits ```missing```
@@ -16,11 +14,6 @@ Project start date: ```2022-10-20 03:00 GBT```
 
 ### Profiles
 - user ```void```
-  - @SamXavia ```active```
-      . @Sam ```active```
-      . @Xavia ```active```
-      . @SamanthaXavia ```active```
-      . @Owner ```active```
   - @FalconChapter ```missing```
   - @Aquavita ```missing```
   - @six ```missing```
@@ -29,7 +22,6 @@ Project start date: ```2022-10-20 03:00 GBT```
 
 ### Legacy Pages
 - name ```void```
-  - nm1 (@SamXavia) ```redirected```
   - nm2 (@FalconChapter) ```not redirected```
   - nm3 (@Aquavita) ```not redirected```
   - nm4 (@Bouncball) ```not redirected```
