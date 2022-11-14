@@ -150,6 +150,17 @@
                     padding-left: 5px;
                     padding-right: 5px;
                 }
+            
+            .normal-subheader {
+                color: #F2F7F2;
+                font-family: monospace;
+                font-size: clamp(1em, 1vw, 2em);
+                font-weight: 400;
+                margin: 0px;
+                padding: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
 
     /* Normal Page Contents */
         .normal-page-content {
