@@ -40,6 +40,10 @@ a:active {
     height: 20px;
 }
 
+.table {
+    width: 50%;
+}
+
 .youtube-rounded {
     border-radius: 25px;
     border: 3px solid #FFFFFF;
