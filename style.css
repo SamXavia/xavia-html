@@ -40,10 +40,6 @@ a:active {
     height: 20px;
 }
 
-.table {
-    width: 50%;
-}
-
 .youtube-rounded {
     border-radius: 25px;
     border: 3px solid #FFFFFF;
@@ -78,6 +74,16 @@ a:active {
     border-radius: 25px;
     border: 3px solid #FFFFFF;
     background-image: linear-gradient(to right, #7289da, #CCCCCC, #7289da);
+    color: #272727;
+    padding: 5px;
+    width: 500px;
+    height: 40px;
+}
+
+.exophase-rounded {
+    border-radius: 25px;
+    border: 3px solid #FFFFFF;
+    background-image: linear-gradient(to right, #2596be, #CCCCCC, #5aa4c0);
     color: #272727;
     padding: 5px;
     width: 500px;
