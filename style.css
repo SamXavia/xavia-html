@@ -89,3 +89,13 @@ a:active {
     width: 500px;
     height: 40px;
 }
+
+.tiktok-rounded {
+    border-radius: 25px;
+    border: 3px solid #FFFFFF;
+    background-image: linear-gradient(to right, #ff0050, #CCCCCC, #00f2ea);
+    color: #272727;
+    padding: 5px;
+    width: 500px;
+    height: 40px;
+}
