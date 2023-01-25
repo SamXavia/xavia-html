@@ -1,0 +1,81 @@
+body {
+    background-color: #272727;
+    color: #FFFFFF;
+    font-family: monospace;
+    font-family: monospace;
+    font-size: 150%;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #272727;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #272727;
+}
+
+a:link {
+    text-decoration: none;
+    color: #272727;
+}
+
+a:active {
+    text-decoration: none;
+    color: #272727;
+}
+
+.rounded {
+    border-radius: 25px;
+    border: 3px solid #FFFFFF;
+    background-image: linear-gradient(to right, #73AD21, #CCCCCC, #73AD21);
+    color: #272727;
+    padding: 5px;
+    width: 500px;
+    height: 40px;
+}
+
+.blank {
+    height: 20px;
+}
+
+.youtube-rounded {
+    border-radius: 25px;
+    border: 3px solid #FFFFFF;
+    background-image: linear-gradient(to right, #FF0000, #CCCCCC, #FF0000);
+    font-style: bold;
+    padding: 5px;
+    width: 500px;
+    height: 40px;
+}
+
+.twitter-rounded {
+    border-radius: 25px;
+    border: 3px solid #FFFFFF;
+    background-image: linear-gradient(to right, #1DA1F2, #CCCCCC, #1DA1F2);
+    color: #272727;
+    padding: 5px;
+    width: 500px;
+    height: 40px;
+}
+
+.instagram-rounded {
+    border-radius: 25px;
+    border: 3px solid #FFFFFF;
+    background-image: linear-gradient(to right, #fbad50, #CCCCCC, #8a3ab9);
+    color: #272727;
+    padding: 5px;
+    width: 500px;
+    height: 40px;
+}
+
+.discord-rounded {
+    border-radius: 25px;
+    border: 3px solid #FFFFFF;
+    background-image: linear-gradient(to right, #7289da, #CCCCCC, #7289da);
+    color: #272727;
+    padding: 5px;
+    width: 500px;
+    height: 40px;
+}
