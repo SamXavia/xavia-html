@@ -13,7 +13,7 @@ article {
 .grid {
     display: grid;
     grid-template-columns: 1fr 50% 1fr;
-    grid-template-rows: 100px 550px;
+    grid-template-rows: 100px 500px;
     place-items: center;
 }
 
