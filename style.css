@@ -6,7 +6,7 @@ body {
 }
 
 .dark-theme {
-    background-color: #696969;
+    background-color: #272727;
     color: #FFFFFF;
   }
 
@@ -157,13 +157,4 @@ textarea {
     font-size: 21px;
     border-radius: 25px;
     width: 10%;
-}
-
-.theme-button-2 {
-    background-color: transparent;
-    color: transparent;
-    border-width: 0px;
-    text-align: center;
-    display: inline-block;
-    font-size: 21px;
 }
