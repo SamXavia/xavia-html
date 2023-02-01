@@ -65,5 +65,5 @@ function addToNoteList(title) {
   noteList.appendChild(listItem);
 }
 
-const themeCookie = document.cookie.split(";").find(function(cookie)
-{})
+const themeCookie = document.cookie.split(";").find(function(cookie){}
+)
