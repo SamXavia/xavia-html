@@ -23,6 +23,7 @@ textarea {
     resize: vertical;
     padding: 10px;
     height: auto;
+    min-height: 250px;
 }
 
 .save-button {
