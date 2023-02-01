@@ -1,0 +1,22 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-theme {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+textarea {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    resize: vertical;
+    padding: 10px;
+    height: auto;
+}
