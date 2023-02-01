@@ -1,9 +1,10 @@
 const textarea = document.getElementById("textarea");
+const noteTitle = document.getElementById("note-title");
 const saveButton = document.getElementById("save-button");
 const deleteButton = document.getElementById("delete-button");
 const toggleThemeButton = document.getElementById("toggle-theme-button");
 const noteList = document.getElementById("note-list");
-let currentNoteTimestamp;
+let currentNoteTitle;
 
 textarea.addEventListener("input", function() {
   saveButton.disabled = false;
@@ -11,19 +12,21 @@ textarea.addEventListener("input", function() {
 
 saveButton.addEventListener("click", function() {
   const note = textarea.value;
-  const timestamp = Date.now();
+  const title = noteTitle.value;
 
-  localStorage.setItem(timestamp, note);
-  addToNoteList(timestamp, note);
+  localStorage.setItem(title, JSON.stringify({ note: note }));
+  addToNoteList(title);
 
   textarea.value = "";
+  noteTitle.value = "";
   saveButton.disabled = true;
   deleteButton.disabled = true;
 });
 
 deleteButton.addEventListener("click", function() {
-  localStorage.removeItem(currentNoteTimestamp);
+  localStorage.removeItem(currentNoteTitle);
   textarea.value = "";
+  noteTitle.value = "";
   saveButton.disabled = true;
   deleteButton.disabled = true;
 
@@ -32,7 +35,7 @@ deleteButton.addEventListener("click", function() {
   for (let i = 0; i < listItems.length; i++) {
     const listItem = listItems[i];
 
-    if (listItem.getAttribute("data-timestamp") === currentNoteTimestamp) {
+    if (listItem.textContent === currentNoteTitle) {
       listItem.remove();
       break;
     }
@@ -41,16 +44,20 @@ deleteButton.addEventListener("click", function() {
 
 toggleThemeButton.addEventListener("click", function() {
   document.body.classList.toggle("dark-theme");
+
+  const theme = document.body.classList.contains("dark-theme") ? "dark" : "light";
+  document.cookie = "theme=" + theme;
 });
 
-function addToNoteList(timestamp, note) {
+function addToNoteList(title) {
   const listItem = document.createElement("li");
-  listItem.textContent = note;
-  listItem.setAttribute("data-timestamp", timestamp);
+  listItem.textContent = title;
 
   listItem.addEventListener("click", function() {
-    currentNoteTimestamp = timestamp;
-    textarea.value = localStorage.getItem(timestamp);
+    currentNoteTitle = title;
+    const data = JSON.parse(localStorage.getItem(title));
+    textarea.value = data.note;
+    noteTitle.value = title;
     saveButton.disabled = true;
     deleteButton.disabled = false;
   });
@@ -58,12 +65,5 @@ function addToNoteList(timestamp, note) {
   noteList.appendChild(listItem);
 }
 
-for (let i = 0; i < localStorage.length; i++) {
-  const timestamp = localStorage.key(i);
-  const note = localStorage.getItem(timestamp);
-
-  addToNoteList(timestamp, note);
-}
-
-saveButton.disabled = true;
-deleteButton.disabled = true;
+const themeCookie = document.cookie.split(";").find(function(cookie)
+{})
