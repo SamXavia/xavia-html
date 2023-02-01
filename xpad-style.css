@@ -24,3 +24,39 @@ textarea {
     padding: 10px;
     height: auto;
 }
+
+.save-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 21px;
+    border-radius: 25px;
+}
+
+.delete-button {
+    background-color: #af4c4c; /* Red */
+    border: none;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 21px;
+    border-radius: 25px;
+}
+
+.theme-button {
+    background-color: #4cafa7; /* Blue */
+    border: none;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 21px;
+    border-radius: 25px;
+}
