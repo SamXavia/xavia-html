@@ -4,66 +4,61 @@ const saveButton = document.getElementById("save-button");
 const deleteButton = document.getElementById("delete-button");
 const toggleThemeButton = document.getElementById("toggle-theme-button");
 const noteList = document.getElementById("note-list");
-let currentNoteTitle;
 
-textarea.addEventListener("input", function() {
-  saveButton.disabled = false;
-});
+let notes = [];
+let selectedNoteIndex = null;
 
-saveButton.addEventListener("click", function() {
-  const note = textarea.value;
-  const title = noteTitle.value;
-
-  localStorage.setItem(title, JSON.stringify({ note: note }));
-  addToNoteList(title);
-
-  textarea.value = "";
-  noteTitle.value = "";
-  saveButton.disabled = true;
-  deleteButton.disabled = true;
-});
-
-deleteButton.addEventListener("click", function() {
-  localStorage.removeItem(currentNoteTitle);
-  textarea.value = "";
-  noteTitle.value = "";
-  saveButton.disabled = true;
-  deleteButton.disabled = true;
-
-  const listItems = noteList.getElementsByTagName("li");
-
-  for (let i = 0; i < listItems.length; i++) {
-    const listItem = listItems[i];
-
-    if (listItem.textContent === currentNoteTitle) {
-      listItem.remove();
-      break;
-    }
+const saveNote = () => {
+  if (selectedNoteIndex === null) {
+    const note = {
+      title: noteTitle.value,
+      text: textarea.value,
+    };
+    notes.push(note);
+  } else {
+    notes[selectedNoteIndex].title = noteTitle.value;
+    notes[selectedNoteIndex].text = textarea.value;
+    selectedNoteIndex = null;
   }
-});
+  localStorage.setItem("notes", JSON.stringify(notes));
+  renderNotes();
+};
 
-toggleThemeButton.addEventListener("click", function() {
-  document.body.classList.toggle("dark-theme");
+const deleteNote = () => {
+  if (selectedNoteIndex !== null) {
+    notes.splice(selectedNoteIndex, 1);
+    selectedNoteIndex = null;
+  }
+  localStorage.setItem("notes", JSON.stringify(notes));
+  renderNotes();
+};
 
-  const theme = document.body.classList.contains("dark-theme") ? "dark" : "light";
-  document.cookie = "theme=" + theme;
-});
-
-function addToNoteList(title) {
-  const listItem = document.createElement("li");
-  listItem.textContent = title;
-
-  listItem.addEventListener("click", function() {
-    currentNoteTitle = title;
-    const data = JSON.parse(localStorage.getItem(title));
-    textarea.value = data.note;
-    noteTitle.value = title;
-    saveButton.disabled = true;
-    deleteButton.disabled = false;
+const renderNotes = () => {
+  noteList.innerHTML = "";
+  notes.forEach((note, index) => {
+    const li = document.createElement("li");
+    li.innerHTML = note.title;
+    li.addEventListener("click", () => {
+      selectedNoteIndex = index;
+      noteTitle.value = note.title;
+      textarea.value = note.text;
+    });
+    noteList.appendChild(li);
   });
+};
 
-  noteList.appendChild(listItem);
+const toggleTheme = () => {
+  document.body.classList.toggle("dark-theme");
+  localStorage.setItem("theme", JSON.stringify(document.body.classList.contains("dark-theme")));
+};
+
+saveButton.addEventListener("click", saveNote);
+deleteButton.addEventListener("click", deleteNote);
+toggleThemeButton.addEventListener("click", toggleTheme);
+
+notes = JSON.parse(localStorage.getItem("notes")) || [];
+renderNotes();
+
+if (JSON.parse(localStorage.getItem("theme"))) {
+  document.body.classList.add("dark-theme");
 }
-
-const themeCookie = document.cookie.split(";").find(function(cookie){}
-)
