@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>XNote | SamXavia</title>
+    <link rel="icon" type="image/png" href="assets/icon/xavia.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="grid">
+      <i></i>
+      <i>
+          <table>
+              <tr>
+                  <td>
+                      <a href="/"><img src="assets/icon/xavia-white.png" class="icon" alt="@"></a>
+                  </td>
+                  <td>
+                      <h1>SamXavia</h1>
+                  </td>
+              </tr>
+          </table>
+      </i>
+      <i></i>
+      <i></i>
+      <i>
+          <table>
+              <tr>
+                  <td><a href="/" class="navlink"><h3>HOME</h3></a></td>
+                  <td class="blank"></td>
+                  <td><a href="/vex" class="navlink"><h3>VEX</h3></a></td>
+                  <td class="blank"></td>
+                  <td><a href="/xnote" class="navlink"><h3>XNOTE</h3></a></td>
+                  <td class="blank"></td>
+                  <td><a href="/contact" class="navlink"><h3>CONTACT</h3></a></td>
+              </tr>
+          </table>
+      </i>
+      <i></i>
+      <i></i>
+      <i><h2>XNOTE</h2></i>
+      <i></i>
+    </div>
+    <input type="text" id="note-title" placeholder="Note Title" class="title">
+    <br>
+    <textarea id="textarea" placeholder="Write your X-Note here."></textarea>
+    <br>
+    <center>
+      <br>
+      <button id="toggle-theme-button" class="theme-button">Theme</button>
+      <br>
+      <br>
+      <button id="save-button" class="save-button">Save</button>
+      <button id="delete-button" class="delete-button">Delete</button>
+    </center>
+    <center><h2>Note List</h2></center>
+    <ul id="note-list"></ul>
+    <!-- <button id="download-all-button">Download All Notes</button> -->
+    <script src="xnote-script.js"></script>
+  </body>
+</html>
