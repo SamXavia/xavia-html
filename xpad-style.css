@@ -1,14 +1,14 @@
 body {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 .dark-theme {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
   }
 
 .icon {
