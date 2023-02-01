@@ -11,6 +11,10 @@ body {
     color: #ffffff;
   }
 
+.icon {
+    height: 50px;
+}
+
 textarea {
     width: 95%;
     display: block;
