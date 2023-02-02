@@ -1,17 +1,18 @@
-body {
-    background-color: #272727;
+body, .dark-theme {
+    background-image: linear-gradient(#272727, #424242);
     color: #FFFFFF;
-    font-family: monospace;
-    font-size: 150%;
+    font-family: 'google sans', monospace;
+    font-size: 125%;
 }
-
-.dark-theme {
-    background-color: #272727;
-    color: #FFFFFF;
-  }
 
 article {
     width: clamp(200px, 50%, 600px);
+}
+
+.vex-deal {
+    color: #00f2ea;
+    font-weight: bold;
+    font-size: 132%;
 }
 
 .grid {
@@ -19,11 +20,6 @@ article {
     grid-template-columns: 1fr 50% 1fr;
     grid-template-rows: auto auto;
     place-items: center;
-}
-
-a {
-    text-decoration: none;
-    color: #272727;
 }
 
 .rounded {
@@ -120,8 +116,7 @@ textarea {
     min-height: 250px;
 }
 
-.save-button {
-    background-color: #4CAF50; /* Green */
+.save-button, .delete-button {
     border: none;
     color: black;
     padding: 10px 16px;
@@ -133,17 +128,12 @@ textarea {
     width: 25%;
 }
 
+.save-button {
+    background-color: #4CAF50; /* Green */
+}
+
 .delete-button {
     background-color: #af4c4c; /* Red */
-    border: none;
-    color: black;
-    padding: 10px 16px;
-    text-align: center;
-    text-decoration: bold;
-    display: inline-block;
-    font-size: 21px;
-    border-radius: 25px;
-    width: 25%;
 }
 
 .theme-button {
