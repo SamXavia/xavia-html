@@ -5,6 +5,11 @@ body, .dark-theme {
     font-size: 125%;
 }
 
+a {
+    text-decoration: none;
+    color: #272727;
+}
+
 article {
     width: clamp(200px, 50%, 600px);
 }
