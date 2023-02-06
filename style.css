@@ -121,35 +121,29 @@ textarea {
     min-height: 250px;
 }
 
-.save-button, .delete-button {
+/* Basic XNote Buttons */
+.save-button, .delete-button, .theme-button {
     border: none;
-    color: black;
+    color: black; /* Text Color */
     padding: 10px 16px;
     text-align: center;
     text-decoration: bold;
     display: inline-block;
     font-size: 21px;
     border-radius: 25px;
-    width: 25%;
 }
 
 .save-button {
     background-color: #4CAF50; /* Green */
+    width: 25%; /* Length */
 }
 
 .delete-button {
     background-color: #af4c4c; /* Red */
+    width: 25%; /* Length */
 }
 
 .theme-button {
     background-color: #4cafa7; /* Blue */
-    border: none;
-    color: black;
-    padding: 10px 16px;
-    text-align: center;
-    text-decoration: bold;
-    display: inline-block;
-    font-size: 21px;
-    border-radius: 25px;
-    width: 10%;
+    width: 10%; /* Length */
 }
