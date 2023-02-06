@@ -6,3 +6,4 @@ I use my website for projects that i'm currently and previously worked on. These
 
 ## Current Projects
 - [VEX](assets/md/VEX.md)
+- [XNote](assets/md/XNote.md)
